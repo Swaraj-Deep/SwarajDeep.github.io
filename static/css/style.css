@@ -6,46 +6,64 @@ body, .sticky-footer-wrapper {
    flex:1 1 auto;
 }
 
-path {
-   fill: #ccc;
-   stroke: #fff;
-   stroke-linejoin: round;
+.testimonial {
+   padding-top: 50px;
+   background-color: #b19db4;
 }
 
-.map_container {
-   display: flex; 
-   justify-content: center;
-   display: inline-block;
+.col-md-4 {
+   margin: 15px auto 10px;
+}
+
+.profile {
+   padding: 75px 10px 18px 10px;
+   background-color: #e8e1e1;
+}
+
+.profile img {
+   top: -60px;
+   position: absolute;
+   left: calc(50% - 80px);
+   border: 10px solid white;
+}
+
+.user {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+}
+
+.profile h3 {
+   font-size: 20px;
+   margin-top: 15px;
    position: relative;
-   vertical-align: top;
-   margin: 0 auto;
-}
- 
-.India_svg {
-    display: inline-block;
-    position: absolute;
-    top: 10px;
-    left: 0;
 }
 
-path:hover {
-   stroke:black;
- }
+span {
+   font-size: 16px;
+   color: #333;
+   margin-top: 2px;
+}
 
-.tooltip-data {
-   /* position: absolute;
-   margin: 2px;
-   padding-left: 5px;
-   background-color: black;
-   color: #313639;
-   pointer-events: none; */
-   position: absolute;     
-   text-align: center;     
-   width: 80px;          
-   height: 14px;         
-   padding: 2px;       
-   font: 12px sans-serif;    
-   background: #fff; 
-   border: 0px;        
-   pointer-events: none;
+blockquote {
+   font-size: 16px;
+   padding-top: 15px;
+   line-height: 30px;
+   text-align: justify;
+   text-justify: inter-word;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.pseudo {
+   background-color: blue;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   height: 4px;
+   width: 150px;
+   position: absolute;
+   left: 50%;
+   border-radius: 50px;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
 }
