@@ -6,46 +6,64 @@ body, .sticky-footer-wrapper {
    flex:1 1 auto;
 }
 
-.first-div {
-   height: 100%;
-   width: 100%;
-   background-color: #b19a78;
+.testimonial {
+   padding-top: 50px;
+   background-color: #b19db4;
 }
 
-.second-div {
+.col-md-4 {
+   margin: 15px auto 10px;
+}
+
+.profile {
+   padding: 75px 10px 18px 10px;
+   background-color: #e8e1e1;
+}
+
+.profile img {
+   top: -60px;
    position: absolute;
-   margin-top: 5%;
-   margin-left: 25%;
-   z-index: 1;
-   background-color: #e8e8e8;
-   height: 80%;
-   width: 80%;
+   left: calc(50% - 80px);
+   border: 10px solid white;
 }
 
-.third-div {
-   margin-left: 55%;
-   margin-top: 15%;
+.user {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+}
+
+.profile h3 {
+   font-size: 20px;
+   margin-top: 15px;
+   position: relative;
+}
+
+span {
+   font-size: 16px;
+   color: #333;
+   margin-top: 2px;
+}
+
+blockquote {
+   font-size: 16px;
+   padding-top: 15px;
+   line-height: 30px;
+   text-align: justify;
+   text-justify: inter-word;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.pseudo {
+   background-color: blue;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   height: 4px;
+   width: 150px;
    position: absolute;
-   z-index: 1;
-}
-
-@media (max-width: 768px) { 
-   .first-div {
-      height: 70%;
-      background-color: #b19a78;
-   }
-   .second-div { 
-      margin-left: 0px;
-      height: 70%;
-      background-color: #e8e8e8;
-      width: 100%;
-      margin-top: 0px;
-   }
-   .third-div {
-      margin-left: 0px;
-      margin-top: 0px;
-      padding-top: 15px;
-      position: relative;
-      z-index: 1;
-   }
+   left: 50%;
+   border-radius: 50px;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
 }
