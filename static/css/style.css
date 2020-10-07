@@ -6,3 +6,45 @@ body, .sticky-footer-wrapper {
    flex:1 1 auto;
 }
 
+.first-div {
+   height: 100%;
+   background-color: #b19a78;
+}
+
+.second-div {
+   position: absolute;
+   margin-top: 5%;
+   margin-left: 25%;
+   z-index: 1;
+   background-color: #e8e8e8;
+   height: 80%;
+   width: 80%;
+}
+
+.third-div {
+   margin-left: 55%;
+   margin-top: 15%;
+   position: absolute;
+   z-index: 1;
+}
+
+@media (max-width: 768px) { 
+   .first-div {
+      height: 70%;
+      background-color: #b19a78;
+   }
+   .second-div { 
+      margin-left: 0px;
+      height: 70%;
+      background-color: #e8e8e8;
+      width: 100%;
+      margin-top: 0px;
+   }
+   .third-div {
+      margin-left: 0px;
+      margin-top: 0px;
+      padding-top: 0px;
+      position: relative;
+      z-index: 1;
+   }
+}
