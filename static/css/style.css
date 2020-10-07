@@ -8,6 +8,7 @@ body, .sticky-footer-wrapper {
 
 .first-div {
    height: 100%;
+   width: 100%;
    background-color: #b19a78;
 }
 
@@ -43,7 +44,7 @@ body, .sticky-footer-wrapper {
    .third-div {
       margin-left: 0px;
       margin-top: 0px;
-      padding-top: 0px;
+      padding-top: 15px;
       position: relative;
       z-index: 1;
    }
