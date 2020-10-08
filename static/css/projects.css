@@ -1,0 +1,62 @@
+body, .sticky-footer-wrapper {
+    min-height:100vh;
+}
+ 
+.flex-fill {
+    flex:1 1 auto;
+}
+
+.testimonial {
+    padding-top: 30px;
+    background-color: #b19db4;
+}
+
+.col-md-4 {
+    margin: 15px auto 10px;
+}
+
+.project-card {
+    padding: 70px 10px 18px 10px;
+    margin-top: 100px;
+    background-color: #e8e1e1;
+}
+
+.project-card img {
+    top: -25px;
+    position: absolute;
+    left: calc(50% - 120px);
+    border: 10px solid white;
+}
+
+.project-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+}
+
+.project-card h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    position: relative;
+}
+
+span {
+    font-size: 16px;
+    color: #333;
+    margin-top: 2px;
+}
+
+blockquote {
+    font-size: 16px;
+    margin-top: 50px;
+    padding-top: 15px;
+    line-height: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    padding-left: 5px;
+}
