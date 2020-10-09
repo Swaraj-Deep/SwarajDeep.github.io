@@ -26,6 +26,7 @@ body, .sticky-footer-wrapper {
     position: absolute;
     left: calc(50% - 120px);
     border: 10px solid white;
+    margin-top: 8px;
 }
 
 .project-img {
